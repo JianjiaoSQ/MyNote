@@ -378,7 +378,7 @@ ps axjf   #以"进程树"的方式显示所有进程
 ps -lA    #输出格式同ps -l
 ```
 
-![](../pic/linux-ps-1.png)
+![](../Linux/pic/linux-ps-1.png)
 
 * **F**：进程标志，说明进程的权限
     - 4：root权限
@@ -396,7 +396,7 @@ ps -lA    #输出格式同ps -l
 * **TTY**：进程运行的终端机
 * **TIME**：进程用掉的CPU时间
 
-![](../pic/linux-ps-2.png)
+![](../Linux/pic/linux-ps-2.png)
 
 * **USER**：进程所属用户
 * **%CPU/%MEM**：进程消耗的CPU百分比和内存百分比
@@ -457,7 +457,7 @@ free [选项]
     -t：列出物理内存与swap的汇总情况    
 ```
 
-![](../pic/linux-free-1.png)
+![](../Linux/pic/linux-free-1.png)
 
 * **buffers**：主要缓存dentry和inode等元数据
 * **cached**：主要缓存文件内容，即page cache
@@ -582,7 +582,7 @@ netstat [选项]
     -s：打印网络统计数据，包括某个协议下的收发包数量
 ```
 
-![](../pic/linux-netstat-1.png)
+![](../Linux/pic/linux-netstat-1.png)
 
 * **Active Internet connections（w/o servers）：网络相关的连接**
     - **Recv-Q**：接收队列(已接收还未递交给应用)
